@@ -2,7 +2,7 @@
 
 require('sanitize.inc.php');
 include_once 'weatherInterface.php';
-define('APPLICATION_ENV', 'development');
+define('APPLICATION_ENV', 'production');
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
