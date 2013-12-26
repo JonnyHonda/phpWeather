@@ -1,0 +1,6 @@
+{
+    "Fields": "Date,Temp,FeelsLike,Humidity,WindDirection,  WindSpeed, WindGust, Pressure, Rain, DailyRain",
+    "Sort": "Desc",
+    "Interval": 1,
+    "Limit": 1
+}
