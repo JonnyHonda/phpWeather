@@ -1,5 +1,5 @@
 <?php
-define ('APPLICATION_ENV','development');
+define ('APPLICATION_ENV','production');
 
 if (APPLICATION_ENV == "development"){
     $dsn = 'mysql:dbname=weather;host=sajb.co.uk';
