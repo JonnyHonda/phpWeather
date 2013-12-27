@@ -11,5 +11,7 @@ $weatherObject = new WeatherData();
 if (isset($_GET['data'])){
     $data = $_GET['data'];
     $weatherObject->fetchData($data,"json");
-
+}elseif (isset ($_POST['data'])) {
+    print_r($_POST['data']);
+    
 }
